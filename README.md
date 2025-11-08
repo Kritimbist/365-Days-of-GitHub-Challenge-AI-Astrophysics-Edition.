@@ -98,3 +98,29 @@ If you’re also into **AI + Space**, feel free to collaborate or share ideas!
 
 If you like this challenge or find it inspiring, **star this repo** ⭐ to support the journey!
 
+
+
+
+
+
+
+
+## Day 001 : Data Distribution using python
+
+Today i learn about the concept of data distribution and some of it's examples .  Data distribution show how data values are spread out and it helps in :
+
+- Detect outliers
+- See if your data is balanced or skewed
+- Decide whether you need normalization or transformation
+- Detect imbalanced classes in classification problems
+
+I've use  python module Numpy, where we can create random data sets of any size.
+# some of the examples  of data distribution
+
+<img width="877" height="743" alt="image" src="https://github.com/user-attachments/assets/644279eb-3a51-4d5f-b8ea-aab4c182d625" />
+
+
+
+
+
+
