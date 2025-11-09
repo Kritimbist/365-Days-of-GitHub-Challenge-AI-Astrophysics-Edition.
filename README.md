@@ -1,4 +1,4 @@
-# 🌌 365 Days of GitHub Challenge — AI × Astrophysics Edition 
+#  365 Days Challenge — AI × Astrophysics 
 
 > “Somewhere, something incredible is waiting to be known.” — Carl Sagan  
 
