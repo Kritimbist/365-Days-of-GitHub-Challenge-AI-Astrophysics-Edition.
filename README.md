@@ -263,7 +263,8 @@ $$y = b_0 + b_1x_1 + b_2x_2 + \dots + b_nx_n + \epsilon$$
 
 # Simple example of Multiple Linear Regression:
 
-<img width="1229" height="764" alt="image" src="https://github.com/user-attachments/assets/2ac4ee8c-6072-4dd8-b154-d4dba298f575" /> <img width="930" height="428" alt="image" src="https://github.com/user-attachments/assets/eb8e45cd-65cd-4cfc-8abc-0c851cc5502c" />
+<img width="1229" height="764" alt="image" src="https://github.com/user-attachments/assets/2ac4ee8c-6072-4dd8-b154-d4dba298f575" /> <img width="930" height="428" alt="image" src="https://github.com/user-attachments/assets/eb8e45cd-65cd-4cfc-8abc-0c851cc5502c" /> <img width="874" height="545" alt="image" src="https://github.com/user-attachments/assets/38dcac78-d0e8-4af0-b308-b52fee2ec96a" />
+
 
 
 
