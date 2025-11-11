@@ -245,13 +245,25 @@ Where:
 - Make Predictions:model.predict(X): We use the trained model to predict the y-values for our original X-values. This gives us the points that lie directly on the red line.
 - Plot the Results:plt.scatter(X, y): This plots our original, "real" data points as blue dots.plt.plot(X, y_pred): This plots the predicted values as a red line, which is the final regression line.
 
+## Multiple Linear Regression :
+
+While simple linear regression uses one variable to make a prediction (e.g., Size $\to$ Price), multiple linear regression is a more powerful technique that uses two or more independent variables to predict a single continuous output.This is much more realistic for most real-world problems. For example, a house's price isn't just based on its size; it's also based on the number of bedrooms, the age of the house, the neighborhood, etc.
+
+## Formula for Multiple Linear Regression
+The formula is a straightforward extension of the one for simple linear regression. You just add a new "coefficient + variable" term for each new feature.The general formula is:
+$$y = b_0 + b_1x_1 + b_2x_2 + \dots + b_nx_n + \epsilon$$
+
+- $y$ (Dependent Variable): The value we want to predict (e.g., House Price).
+- $x_1, x_2, \dots, x_n$ (Independent Variables): The features we use to predict (e.g., $x_1$ = Size, $x_2$ = Num of Bedrooms, $x_3$ = House Age).
+- $b_0$ (The Intercept): The base value of $y$ when all features ($x_1, x_2, \dots$) are zero. (The "base price" of a house with 0 size, 0 bedrooms, etc.).$b_1, b_2, \dots, b_n$ (The Coefficients): This is the most important part. Each coefficient represents the "strength" and "direction" of its corresponding feature's relationship with $y$.
+- $\epsilon$ (Epsilon, the Error Term): The random error or noise that the model can't explain.
 
 
+<img width="3410" height="2739" alt="image" src="https://github.com/user-attachments/assets/4bc6db1b-5c24-495d-97bf-2a5897b41064" />
 
+# Simple example of Multiple Linear Regression:
 
-
-
-
+<img width="1229" height="764" alt="image" src="https://github.com/user-attachments/assets/2ac4ee8c-6072-4dd8-b154-d4dba298f575" /> <img width="930" height="428" alt="image" src="https://github.com/user-attachments/assets/eb8e45cd-65cd-4cfc-8abc-0c851cc5502c" />
 
 
 
