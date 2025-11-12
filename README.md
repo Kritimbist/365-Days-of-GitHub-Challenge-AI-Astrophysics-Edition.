@@ -1,4 +1,7 @@
 #  365 Days Challenge — AI × Astrophysics 
+<img width="860" height="535" alt="image" src="https://github.com/user-attachments/assets/d66a55d6-c4e2-45f1-8bff-c586d22031dc" />
+
+
 
 > “Somewhere, something incredible is waiting to be known.” — Carl Sagan  
 
