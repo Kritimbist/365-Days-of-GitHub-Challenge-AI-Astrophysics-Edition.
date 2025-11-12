@@ -303,4 +303,14 @@ This is a key concept. Your line is defined by its slope ($m$) and its y-interce
 <img width="982" height="745" alt="image" src="https://github.com/user-attachments/assets/f646c084-0bf7-4e01-bcfa-a0503e3d1041" /> <img width="907" height="619" alt="image" src="https://github.com/user-attachments/assets/765a58dd-b95f-4b85-af24-009f406296ef" />
 <img width="1050" height="652" alt="image" src="https://github.com/user-attachments/assets/d0015137-9f22-41ed-b28e-fbb5b33a04c0" />
 
+# Pause on Current Project
 
+Hi there! 👋
+
+Starting **tomorrow**, I will focus on learning **NumPy, Pandas, scikit-learn (sklearn), and Matplotlib** from **basic to advanced levels**.  
+
+To do this properly, I am **pausing this project for now**. My plan is to gain a **strong understanding** of these core Python libraries first, so I can tackle more advanced topics effectively.  
+
+Once I complete the basics and feel confident, I will **resume this project** and continue making progress.  
+
+Thanks for your patience and stay tuned for updates! 🚀
