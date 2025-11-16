@@ -44,3 +44,54 @@ np.eye(): Creates an identity matrix of specified size.
 
 
 
+
+
+# Numpy Array Indexing
+Array indexing in NumPy refers to the method of accessing specific elements or subsets of data within an array.This feature allows us to retrieve, modify and manipulate data at specific positions or ranges helps in making it easier to work with large datasets.
+
+## Accessing Elements in 1D Arrays
+- A 1D NumPy array is a sequence of values with positions called indices which starts at 0.
+- We access elements by using these indices in square brackets like arr[0] for the first element. Negative indices count from the end so arr[-1] gives the last element.
+
+  ## Simple Code example :
+  <img width="679" height="251" alt="image" src="https://github.com/user-attachments/assets/c06a707c-a8c8-4822-88c5-df83e937b427" />
+# Accessing Elements in Multidimensional Arrays
+### 2D Arrays
+We can access elements by specifying both row and column indices like matrix[row, column].
+  <img width="1376" height="179" alt="image" src="https://github.com/user-attachments/assets/1481c317-9650-458c-a979-dd4c34fce738" />
+ 
+ ### 3D Arrays
+ It can be visualized as a stack of 2D arrays, we need three indices-
+- Depth: Specifies the 2D slice.
+- Row: Specifies the row within the slice.
+- Column: Specifies the column within the row.
+  We can access elements by specifying row, column and depth indices like matrix[depth, row, column].
+  
+<img width="539" height="292" alt="image" src="https://github.com/user-attachments/assets/2f08aba5-8a2a-4e3d-87c2-78844e4ee181" />
+
+
+
+
+## Slicing Arrays
+It allows us to extract a range of elements using the format start:stop:step
+
+### Slicing 1D Arrays
+For a 1D array, slicing returns a subset of elements between the start and stop indices.
+<img width="620" height="151" alt="image" src="https://github.com/user-attachments/assets/ba11eb50-2682-4e04-9452-ae816949e195" />
+
+Here arr[0:4] slices the array starting at index 0 up to (but not including) index 4 so it returns the elements [0,1, 2, 3].
+## Slicing Multidimensional Arrays
+In this slicing can be applied to each dimension separately which allows us to extract submatrices or smaller blocks of data.
+<img width="574" height="219" alt="image" src="https://github.com/user-attachments/assets/195eac8c-e78d-4051-b8c4-c7029d2fc78e" />
+
+
+
+
+ 
+
+
+
+
+
+
+
