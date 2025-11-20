@@ -110,7 +110,28 @@ We can modify array elements directly by using indexing or slicing. This makes i
 
 
 
+ # Reshape NumPy Array - Python
+
+ Reshaping in NumPy refers to modifying the dimensions of an existing array without changing its data. 
+ <img width="526" height="157" alt="image" src="https://github.com/user-attachments/assets/8e661dd7-19a9-4ec2-bdc8-3d36a5b1f870" />
+
+
  
+ a.reshape(2, 3) arranges the 6 elements into 2 rows and 3 columns, forming a 2-D matrix.
+
+
+ <img width="592" height="232" alt="image" src="https://github.com/user-attachments/assets/c50b93f5-5fe8-49f8-9eac-e4314c13a2af" />
+
+ 
+ a.reshape(2, 2, 2) transforms the array into 2 blocks, each containing a 2×2 matrix, forming a 3-D structure.
+
+
+<img width="640" height="244" alt="image" src="https://github.com/user-attachments/assets/8e8e8f8e-7f4c-4bf3-bb6b-438ecc74d9a5" />
+
+a.reshape(3, -1) tells NumPy to create 3 rows, and it computes the remaining dimension as 4 columns, since 12 ÷ 3 = 4.
+
+ 
+
 
 
 
