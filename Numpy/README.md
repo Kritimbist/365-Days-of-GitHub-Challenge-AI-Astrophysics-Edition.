@@ -130,7 +130,33 @@ We can modify array elements directly by using indexing or slicing. This makes i
 
 a.reshape(3, -1) tells NumPy to create 3 rows, and it computes the remaining dimension as 4 columns, since 12 ÷ 3 = 4.
 
- 
+
+# NumPy Array Broadcasting
+Broadcasting in NumPy allows us to perform arithmetic operations on arrays of different shapes without reshaping them. It automatically adjusts the smaller array to match the larger array's shape by replicating its values along the necessary dimensions.
+
+<img width="701" height="215" alt="image" src="https://github.com/user-attachments/assets/8fd9a182-910b-4e24-b5ec-f8699bf81d7e" />
+
+
+In this example, the scalar value 10 is broadcasted to match the shape of the 2D array. As a result the scalar 10 is added to each element of the 2D array creating a new array where each element is increased by 10 which results in the output.
+
+## Example 1: Broadcasting a Scalar to a 1D Array
+ <img width="653" height="166" alt="image" src="https://github.com/user-attachments/assets/86912b6a-7686-4cf0-9ff8-b8dbb96ed875" />
+
+ ## Example 2: Broadcasting a 1D Array to a 2D Array
+ <img width="631" height="203" alt="image" src="https://github.com/user-attachments/assets/d6b30680-70e5-4cbe-a420-c2492752707d" />
+
+ ## Example 3: Broadcasting in Conditional Operations
+ <img width="688" height="193" alt="image" src="https://github.com/user-attachments/assets/8822f08f-811f-4daa-a284-1904d76603a6" />
+
+ ## Example 4: Using Broadcasting for Matrix Multiplication
+ <img width="480" height="220" alt="image" src="https://github.com/user-attachments/assets/494ac026-5028-4c27-973f-25069de132df" />
+
+
+
+
+
+
+
 
 
 
